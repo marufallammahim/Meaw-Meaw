@@ -60,6 +60,6 @@ CREATE TABLE meals (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- sample admin (password: admin123)
-INSERT INTO users (fullname,email,password,role) VALUES ('Admin User','admin@nafisa.test', '<?php echo password_hash('admin123', PASSWORD_DEFAULT); ?>', 'admin');
+INSERT INTO users (fullname,email,password,role) VALUES ('Admin User','marufallammahim@gmail.com', '<?php echo password_hash('MxM@2006', PASSWORD_DEFAULT); ?>', 'admin');
 
 -- Note: replace the above PHP snippet with a real hash or register via the form after import.
